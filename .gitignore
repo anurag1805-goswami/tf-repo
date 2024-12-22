@@ -1,0 +1,11 @@
+.env
+# Ignore Terraform state and configuration
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Ignore Terraform lock files
+.terraform.lock.hcl
+
+# Ignore .terraform directories recursively
+.terraform/
